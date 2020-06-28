@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grids-Site</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    
+    body{
+    
+background-color: black;
+    font-size: 100%;
+}
+header{
+ margin: 20px;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    background-color: black;
+    padding: 20px;
+    color: aqua;
+       margin-top: 20px;
+    text-align: center;
+}
+main{
+    display: grid;
+grid-gap: 20px;
+    grid-template-areas: 'pic pic level1'
+                        'pic pic level2';
+   
+    margin-top: 50px;
+}
+.pic{
+    grid-area: pic;
+    background-image: url(computer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aqua;
+    padding-top: 150px;
+    margin-left: 20px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+.pic h2{
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+.pic p{
+    font-size: 2em;
+    margin-top:0 ;
+}
+.level1{
+    grid-area: level1;
+    margin-left: 30px;
+    margin-top: 10px;
+  background-color: black;
+    color: aqua;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.level2{
+    margin-top: 0;
+    grid-area: level2;
+    margin-left: 30px;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    justify-content: center;
+     padding-top: 50px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    color: aqua;
+    text-align: center;
+    grid-gap: 20px;
+    
+}
+section h4{
+    margin: 0;
+    padding: 0;
+}
+section p{
+    margin-top: 0;
+}
+footer{
+    color: aqua;
+    text-align: center;
+}
+    
+    </style>
+    
+    </head>
+    <body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="coursera.html">Home</a></li>
+            <li><a href="coursera.html">About</a></li>
+            <li><a href="coursera.html">Service</a></li>
+            <li><a href="coursera.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="pic">
+      <h2>UI Design</h2>
+        <p>loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo</p>
+        </div>
+        <div class="level1">
+        <h4>Membeship</h4>
+            <p>$299 per month</p>
+        </div>
+        <div class="level2">
+        <h4>Pro Membership</h4>
+            <p>$500 per month</p>
+        </div>
+        
+        </main>
+    <section>
+        <div class="fab1">
+            <i class="fa fa-bar-chart" style="font-size:36px"></i>
+            <h4>Bar-Chart</h4>
+            <p>loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo</p>
+        </div>
+ 
+        <div class="fab2">
+            <i class="fa fa-pie-chart" style="font-size:36px"></i>
+            <h4>Pie-Chart</h4>
+            <p>loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo</p>
+        </div>
+      
+        <div class="fab3">
+            <i class="fa fa-line-chart" style="font-size:36px"></i>
+            <h4>Line-Curve</h4>
+            <p>loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo</p>
+        </div>
+   
+        <div class="fab4">
+            <i class="fa fa-area-chart" style="font-size:36px"></i>
+            <h4>Area Chart</h4>
+            <p>loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo loren epsum dolo</p>
+        </div>
+        
+        
+        </section>
+        <footer>
+        &copy;Aniket Singh 2020
+        
+        </footer>
+    </body>
+
+</html>
