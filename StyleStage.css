@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*border: 2px solid blue;*/
+    margin: auto;
+    width: 80%;
+    background: #333333;
+    color: #BB76C4;
+}
+
+header h1 {
+    color: #F86863;
+}
+
+a {
+    color: aqua;
+}
+
+svg {
+    height: 15px;
+    width: 15px;
+}
+
+header {
+    /* border: 2px solid red;*/
+    background-color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+    color: #48BBDF;
+}
+
+nav {
+    /* border: 2px solid green;*/
+}
+
+nav ul {
+    /* border: 2px solid yellow;*/
+    text-align: center;
+}
+
+nav ul li {
+    /* border: 2px solid orange;*/
+    width: 30%;
+    display: inline;
+    margin-right: 10px;
+    font-size: 1.2rem;
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    width: 20%;
+    padding: 0 20px;
+    /*padding-top: 20px;*/
+    /*padding: 50px;*/
+    /*box-sizing: border-box;*/
+}
+
+
+nav ul li a:hover {
+    text-decoration: none;
+    background: black;
+    ;
+}
+
+#about h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#about p {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+#about strong {
+    font-size: 1.3rem;
+}
+
+section li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+section ul {
+    /* border: 2px solid yellow;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section ul li {
+    /* border: 2px solid green;*/
+    width: 40%;
+    margin-right: 10px;
+    /* display: flex;*/
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#guidelines {
+    /* border: 2px solid blue;*/
+}
+
+li {
+    list-style: none;
+}
+
+#guidelines p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+#guidelines h2,
+#guidelines h3 {
+    text-align: center;
+}
+
+#contribute {
+    /* border: 2px solid brown;*/
+}
+
+#contribute h2,
+#contribute h3 {
+    text-align: center;
+}
+
+#contribute p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.profile {
+    /* border: 2px solid pink;*/
+    width: 40%;
+    text-align: center;
+    float: right;
+}
+
+.profile li {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+#contribute ol li {
+    line-height: 2rem;
+}
+
+#styles li {
+    line-height: 2rem;
+}
+
+#styles h2 {
+    text-align: center;
+}
+
+.page-footer p,
+.page-footer li {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.page-footer ul {
+    /* border: 2px solid aqua;*/
+    text-align: center;
+}
+
+.page-footer ul li {
+    /*border: 2px solid green;*/
+    width: 30%;
+    text-align: center;
+    display: inline;
+    margin-right: 10px;
+}
